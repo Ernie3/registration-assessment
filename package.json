@@ -1,0 +1,27 @@
+{
+  "name": "merkle-se-assessment-registration-backend",
+  "version": "1.0.0",
+  "description": "merkle se assessment registration backend",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ernie3/merkle-se-assessment-registration-backend.git"
+  },
+  "author": "Ernie3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ernie3/merkle-se-assessment-registration-backend/issues"
+  },
+  "homepage": "https://github.com/Ernie3/merkle-se-assessment-registration-backend#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2"
+  }
+}
