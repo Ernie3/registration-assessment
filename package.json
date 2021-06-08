@@ -1,7 +1,7 @@
 {
-  "name": "merkle-se-assessment-registration-backend",
+  "name": "registration-assessment",
   "version": "1.0.0",
-  "description": "merkle se assessment registration backend",
+  "description": "registration assessment",
   "main": "./src/app.js",
   "scripts": {
     "start": "node ./src/app.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ernie3/merkle-se-assessment-registration-backend.git"
+    "url": "git+https://github.com/Ernie3/registration-assessment.git"
   },
   "author": "Ernie3",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ernie3/merkle-se-assessment-registration-backend/issues"
+    "url": "https://github.com/Ernie3/registration-assessment/issues"
   },
-  "homepage": "https://github.com/Ernie3/merkle-se-assessment-registration-backend#readme",
+  "homepage": "https://github.com/Ernie3/registration-assessment#readme",
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1",
