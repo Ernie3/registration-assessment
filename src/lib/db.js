@@ -6,8 +6,8 @@ const sequelize = new Sequelize({
 });
 
 sequelize.authenticate()
-    .then(() => console.log("Connected to database"))
-    .catch(() => console.error("Failed to connect to database."));
+    .then(() => console.log("Successfully connected to the database."))
+    .catch(() => console.error("Failed to connect to the database."));
 
 const User = sequelize.define('User', {
     firstName: {
@@ -55,7 +55,6 @@ const User = sequelize.define('User', {
     freezeTableName: true
 });
 
-User.sync();
 sequelize.sync();
 
 module.exports.User = User;
