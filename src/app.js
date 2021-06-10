@@ -11,6 +11,9 @@ app.use(express.urlencoded({
 }));
 app.use(express.json());
 
+// Health Check
+app.use("/health", (req, res) => res.sendStatus(200));
+
 // Views
 app.use(express.static(path.join(__dirname, 'public')));
 app.use("/registered", (req, res) => res.sendFile(path.join(__dirname, "public/registered.html")));
