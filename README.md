@@ -8,7 +8,7 @@ Requires Docker daemon to be installed and running on the system.
 docker build -t registration-app .
 docker run -dp 8080:8080 registration-app
 ```
-Visit localhost:8080 to view the app.
+Visit http://localhost:8080 to view the app.
 
 To stop the app, run 
 ```
@@ -27,7 +27,7 @@ Requires node.js to be installed on the system.
 npm install
 npm start
 ```
-Visit localhost:8080 to view the app.
+Visit http://localhost:8080 to view the app.
 
 ## Routes
 ```
