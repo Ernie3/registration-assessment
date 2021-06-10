@@ -2,6 +2,8 @@
 registration assessment
 
 ## Running the app using Docker
+Requires Docker daemon to be installed and running on the system.
+
 ```
 docker build -t registration-app .
 docker run -dp 8080:8080 registration-app
@@ -19,6 +21,8 @@ docker stop <CONTAINER ID>
 ```
 
 ## Running the app without Docker
+Requires node.js to be installed on the system.
+
 ```
 npm install
 npm start
